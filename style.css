@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: white;
+}
+    
+
+nav{
+ 
+    background-color: rgb(2, 61, 116);
+    height: 3.5em;
+  
+}
+ul{
+
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+    background-attachment: fixed;
+  
+}
+li a{
+    color: white;
+    float: right;
+    margin-top: 0;
+    padding: 10px;;
+    font-size: 1.4rem;
+    text-decoration: none;  
+}
+
+li a:hover{
+    color: grey;
+}
+
+
+
+button{
+    border: 2px solid rgb(2, 61, 116);
+    width:fit-content;
+    background:rgb(2, 61, 116);
+    color: white;
+    padding: 9px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+
+}
+
+button:hover{
+    border: 2px solid rgb(60, 157, 248);
+}
+.content{
+    
+    position: relative;
+    
+}
+.content img{
+    opacity: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.content-text{
+    margin: 10%;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 1.8rem;
+}
+
+.services{
+    color: white;
+    position: relative;
+   
+    width: 100%;
+    margin: 1.8%;
+
+
+    
+}
+.service1, .service2, .service3{
+float: left;
+width: 32%;
+padding: 1%;
+font-size: 1.2rem;
+height: 40vh;
+line-height: 2em;
+}
+.services button{
+margin-top:2em; 
+color: white;
+border: 2px solid white;
+
+}
+
+.service1, .service3{
+    background: rgb(5, 98, 185);
+}
+.service2{
+    background: rgb(2, 61, 116);
+}
+.service1 p, .service2 p, .service3 p{
+    margin-top: 1.8rem;
+
+}
+.serve{
+    height: 80vh;
+    line-height: 3em;
+   
+
+}
+.serve p{
+    margin-top: 4rem;
+}
+.service-content{
+    color: black;
+    position: relative;
+    height: 90vh;
+   
+}
+
+.things{
+margin-top:5%;
+font-size: 1.6rem;
+width: 100%;
+position: absolute;
+top: 1vh;
+text-align: center;
+height: 60vh;
+line-height: 2em;
+background-image: linear-gradient(to right, rgb(92, 175, 253),rgb(7, 71, 131));
+color: whitesmoke;
+}
+.things button{
+    background: transparent;
+    border-color: whitesmoke;
+}
+.test{
+    
+    float: left;
+    padding: 10px;
+    width: 45%;
+    
+}
+.hospitality{
+margin-left: 4%;    
+
+}
+.about{
+    
+    position: relative;
+    
+}
+.about img{
+    opacity: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.about p{
+    margin: 10%;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 1.8rem;
+}
+footer{
+    
+    position: relative;
+    text-align: center;
+    
+}
+footer img{
+    opacity: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.footer-text{
+   
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 1.8rem;
+    width: 50%;
+}
+.logo{
+    opacity: 100%;
+    width: 2%;
+    height: 2.4rem;
+    position: relative;
+ }
+ @media (max-width:600px){
+    li a{
+        font-size: 1rem;
+    }
+    
+    button{
+        border: 2px solid rgb(2, 61, 116);
+        width:fit-content;
+        background:rgb(2, 61, 116);
+        color: white;
+        padding: 2px;
+        font-size: 0.8rem;
+        border-radius: 8px;
+    
+    }
+    .content-text{
+        margin: 5%;
+        position: absolute;
+        top: 7px;
+        left: 5px;
+        font-size: 1.2rem;
+    }
+    .services{
+        color: white;
+      
+        height: 70vh;
+        padding: 1%;
+    
+        
+    }
+    .service1, .service2, .service3{
+        margin: 1%;
+        width: 100%;
+        font-size: 0.8rem;
+        height: 50vh;
+        
+       
+        }
+        .services button{
+        margin-top:1em; 
+        color: white;
+        border: 2px solid white;
+      
+        }  
+      
+        .service-content{
+            color: black;
+            position: relative;
+            height: 50vh;
+           
+        }
+        .things{
+            margin-top:2%;
+            font-size: 0.73rem;
+            width: 100%;
+            position: absolute;
+            top: 1vh;
+            text-align: center;
+            height: 90vh;
+            line-height: 2em;
+            background-image: linear-gradient(to right, rgb(92, 175, 253),rgb(7, 71, 131));
+            color: whitesmoke;
+            }
+            .about p{
+                margin: 0.8%;
+                position: absolute;
+                
+                left: 20px;
+                font-size: 1.02rem;
+            }
+            .about img{
+                opacity: 30%;
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 85vh;
+                width: 100%;
+            }
+            
+            .footer-text{
+   
+                position: absolute;
+                margin-top: 5%;
+                left: 25%;
+                font-size: 0.9rem;
+                width: 60%;
+            }
+        
+    }
